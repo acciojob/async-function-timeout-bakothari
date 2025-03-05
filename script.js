@@ -9,7 +9,7 @@ document.getElementById("btn").addEventListener("click", async function () {
         return;
     }
 
-    outputDiv.textContent = "Waiting...";
+    outputDiv.textContent = "";
 
     await new Promise(resolve => setTimeout(resolve, delay));
 
